@@ -60,7 +60,7 @@ public class IndexFiles {
                  + "This indexes the documents in DOCS_PATH, creating a Lucene index"
                  + "in INDEX_PATH that can be searched with SearchFiles";
     String indexPath = "index";
-    String docsPath = null;
+    String docsPath = "C://Users//eaves.zhu//Documents//GitHub//Cheetah//src//main//resources//log";
     boolean create = true;
     for(int i=0;i<args.length;i++) {
       if ("-index".equals(args[i])) {
@@ -153,6 +153,7 @@ public class IndexFiles {
         public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
           try {
             indexDoc(writer, file, attrs.lastModifiedTime().toMillis());
+            
           } catch (IOException ignore) {
             // don't index files that can't be read.
           }
@@ -162,6 +163,7 @@ public class IndexFiles {
     } else {
       indexDoc(writer, path, Files.getLastModifiedTime(path).toMillis());
     }
+
   }
 
   /** Indexes a single document */
@@ -206,5 +208,9 @@ public class IndexFiles {
         writer.updateDocument(new Term("path", file.toString()), doc);
       }
     }
+
   }
+  
+  
+  
 }

@@ -216,6 +216,12 @@
     <artifactId>aspectjrt</artifactId>
     <version>1.8.10</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-benchmark -->
+<dependency>
+    <groupId>org.apache.lucene</groupId>
+    <artifactId>lucene-benchmark</artifactId>
+    <version>6.4.0</version>
+</dependency>
 
 	</dependencies>
 

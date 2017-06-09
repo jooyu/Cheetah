@@ -51,9 +51,10 @@ public class SearchFiles {
       System.exit(0);
     }
 
-    String index = "index";
+    //String index = "index";
+    String index ="C://Users//eaves.zhu//Documents//GitHub//Cheetah//src//main//resources//index";
     String field = "contents";
-    String queries = null;
+    String queries =null;
     int repeat = 0;
     boolean raw = false;
     String queryString = null;

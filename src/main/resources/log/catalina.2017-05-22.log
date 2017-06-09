@@ -1,0 +1,372 @@
+May 22, 2017 10:11:50 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 22, 2017 10:11:50 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxTreads' to '500' did not find a matching property.
+May 22, 2017 10:11:50 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '75' did not find a matching property.
+May 22, 2017 10:11:50 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 22, 2017 10:11:50 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 10:11:50 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 784 ms
+May 22, 2017 10:11:50 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 22, 2017 10:11:50 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 22, 2017 10:11:50 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /data/game/cookierunsrv/ROOT.war
+May 22, 2017 10:11:51 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-core-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 22, 2017 10:11:51 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-el-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+May 22, 2017 10:12:16 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /data/game/cookierunsrv/.svn
+May 22, 2017 10:12:16 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 22, 2017 10:12:16 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 10:12:16 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 26113 ms
+May 22, 2017 11:25:36 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 22, 2017 11:25:36 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxTreads' to '500' did not find a matching property.
+May 22, 2017 11:25:36 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '75' did not find a matching property.
+May 22, 2017 11:25:37 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 22, 2017 11:25:37 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 11:25:37 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3330 ms
+May 22, 2017 11:25:38 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 22, 2017 11:25:38 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 22, 2017 11:25:38 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /data/game/cookierunsrv/ROOT.war
+May 22, 2017 11:25:38 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-core-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 22, 2017 11:25:38 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-el-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+May 22, 2017 11:27:58 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 22, 2017 11:27:58 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxTreads' to '500' did not find a matching property.
+May 22, 2017 11:27:58 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '75' did not find a matching property.
+May 22, 2017 11:27:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 22, 2017 11:27:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 11:27:58 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 852 ms
+May 22, 2017 11:27:58 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 22, 2017 11:27:58 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 22, 2017 11:27:59 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /data/game/cookierunsrv/ROOT.war
+May 22, 2017 11:27:59 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-core-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 22, 2017 11:27:59 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-el-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+May 22, 2017 11:31:10 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 22, 2017 11:31:10 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxTreads' to '500' did not find a matching property.
+May 22, 2017 11:31:10 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '75' did not find a matching property.
+May 22, 2017 11:31:10 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 22, 2017 11:31:10 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 11:31:10 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 753 ms
+May 22, 2017 11:31:10 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 22, 2017 11:31:10 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 22, 2017 11:31:10 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /data/game/cookierunsrv/ROOT.war
+May 22, 2017 11:31:11 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-core-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 22, 2017 11:31:11 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-el-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+May 22, 2017 11:32:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /data/game/cookierunsrv/.svn
+May 22, 2017 11:32:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 22, 2017 11:32:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 11:32:40 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 89441 ms
+May 22, 2017 11:33:39 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 22, 2017 11:33:39 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxTreads' to '500' did not find a matching property.
+May 22, 2017 11:33:39 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '75' did not find a matching property.
+May 22, 2017 11:33:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 22, 2017 11:33:39 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 11:33:39 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 928 ms
+May 22, 2017 11:33:39 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 22, 2017 11:33:39 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 22, 2017 11:33:39 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /data/game/cookierunsrv/ROOT.war
+May 22, 2017 11:33:39 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-core-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 22, 2017 11:33:39 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-el-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+May 22, 2017 11:38:41 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 22, 2017 11:38:41 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxTreads' to '500' did not find a matching property.
+May 22, 2017 11:38:41 AM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '75' did not find a matching property.
+May 22, 2017 11:38:42 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 22, 2017 11:38:42 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 11:38:42 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 815 ms
+May 22, 2017 11:38:42 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 22, 2017 11:38:42 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 22, 2017 11:38:42 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /data/game/cookierunsrv/ROOT.war
+May 22, 2017 11:38:43 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-core-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 22, 2017 11:38:43 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-el-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+May 22, 2017 11:40:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /data/game/cookierunsrv/.svn
+May 22, 2017 11:40:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 22, 2017 11:40:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 11:40:57 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 135202 ms
+May 22, 2017 1:48:57 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 22, 2017 1:48:57 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+May 22, 2017 1:48:57 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 1:48:57 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-2-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 1] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 2] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 3] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 4] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-3-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 5] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 6] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-4-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 7] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 8] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-7-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Thread-23] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-16-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 13] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 14] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [New I/O worker #1] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [New I/O worker #2] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [New I/O worker #3] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [New I/O worker #4] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [New I/O boss #5] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Hashed wheel timer #2] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-20-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 15] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 16] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-22-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-22-thread-2] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-22-thread-3] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-22-thread-4] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-22-thread-5] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-22-thread-6] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-22-thread-7] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-22-thread-8] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-22-thread-9] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-22-thread-10] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-23-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [New I/O worker #6] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [New I/O worker #7] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [New I/O worker #8] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [New I/O worker #9] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [New I/O boss #10] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Hashed wheel timer #4] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [pool-27-thread-1] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 17] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [I/O dispatcher 18] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Memcached IO over {MemcachedConnection to /192.168.104.70:11210}] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Memcached IO over {MemcachedConnection to /192.168.104.70:11210}] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Memcached IO over {MemcachedConnection to /192.168.104.70:11210}] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Memcached IO over {MemcachedConnection to /192.168.104.70:11210}] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Memcached IO over {MemcachedConnection to /192.168.104.70:11210}] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Memcached IO over {MemcachedConnection to /192.168.104.70:11210}] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Memcached IO over {MemcachedConnection to /192.168.104.70:11210}] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Memcached IO over {MemcachedConnection to /192.168.104.70:11210}] but has failed to stop it. This is very likely to create a memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Cookierun context]) and a value of type [com.devsisters.game.oven2.utils.CookierunContext] (value [com.devsisters.game.oven2.utils.CookierunContext@1ec25fc0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Cookierun context]) and a value of type [com.devsisters.game.oven2.utils.CookierunContext] (value [com.devsisters.game.oven2.utils.CookierunContext@b86ef40]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Cookierun context]) and a value of type [com.devsisters.game.oven2.utils.CookierunContext] (value [com.devsisters.game.oven2.utils.CookierunContext@41297089]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@38b75e0b]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@f67a0200]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@34872a82]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@8140d380]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@8472fbd]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@4f76f1a0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@260ab04]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@f67a0200]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@25ea45]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@ef87e460]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@d7b03f9]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@4d810dda]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Cookierun context]) and a value of type [com.devsisters.game.oven2.utils.CookierunContext] (value [com.devsisters.game.oven2.utils.CookierunContext@3cf0ef2c]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@38b75e0b]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@f67a0200]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@34872a82]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@8140d380]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@8472fbd]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@4f76f1a0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@3bcf5b3d]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@ef87e460]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@260ab04]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@f67a0200]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@d7b03f9]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@4d810dda]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Cookierun context]) and a value of type [com.devsisters.game.oven2.utils.CookierunContext] (value [com.devsisters.game.oven2.utils.CookierunContext@1497e9c3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Cookierun context]) and a value of type [com.devsisters.game.oven2.utils.CookierunContext] (value [com.devsisters.game.oven2.utils.CookierunContext@41a64463]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Cookierun context]) and a value of type [com.devsisters.game.oven2.utils.CookierunContext] (value [com.devsisters.game.oven2.utils.CookierunContext@7a944af4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@38b75e0b]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@f67a0200]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@34872a82]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@8140d380]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@8472fbd]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@4f76f1a0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@3bc3f028]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@ef87e460]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@260ab04]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@f67a0200]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2] (value [com.devsisters.game.oven2.utils.SimpleDateFormatThreadSafe$2@d7b03f9]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@4d810dda]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Cookierun context]) and a value of type [com.devsisters.game.oven2.utils.CookierunContext] (value [com.devsisters.game.oven2.utils.CookierunContext@10b1cf62]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Cookierun context]) and a value of type [com.devsisters.game.oven2.utils.CookierunContext] (value [com.devsisters.game.oven2.utils.CookierunContext@6347144b]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Cookierun context]) and a value of type [com.devsisters.game.oven2.utils.CookierunContext] (value [com.devsisters.game.oven2.utils.CookierunContext@3bdc313d]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Cookierun context]) and a value of type [com.devsisters.game.oven2.utils.CookierunContext] (value [com.devsisters.game.oven2.utils.CookierunContext@1f3ac4de]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+SEVERE: The web application [] created a ThreadLocal with key of type [org.springframework.core.NamedThreadLocal] (value [Cookierun context]) and a value of type [com.devsisters.game.oven2.utils.CookierunContext] (value [com.devsisters.game.oven2.utils.CookierunContext@16ec284]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+May 22, 2017 1:48:57 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+May 22, 2017 1:48:57 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 1:48:57 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+May 22, 2017 1:48:57 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 1:49:06 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+May 22, 2017 1:49:06 PM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxTreads' to '500' did not find a matching property.
+May 22, 2017 1:49:06 PM org.apache.catalina.startup.SetAllPropertiesRule begin
+WARNING: [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '75' did not find a matching property.
+May 22, 2017 1:49:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+May 22, 2017 1:49:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 1:49:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 789 ms
+May 22, 2017 1:49:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 22, 2017 1:49:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+May 22, 2017 1:49:07 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /data/game/cookierunsrv/ROOT.war
+May 22, 2017 1:49:07 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-core-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 22, 2017 1:49:07 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/data/game/cookierunsrv/ROOT/WEB-INF/lib/tomcat-embed-el-7.0.54.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/el/Expression.class
+May 22, 2017 1:51:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /data/game/cookierunsrv/.svn
+May 22, 2017 1:51:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+May 22, 2017 1:51:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 22, 2017 1:51:09 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 121993 ms
