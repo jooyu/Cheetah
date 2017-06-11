@@ -23,7 +23,7 @@ import org.yujoo.baas.util.FileUtil;
 
 public class IndexController {
 @Autowired
-	private QueryStringService queryStringService;
+	public QueryStringService queryStringService;
 
 	
 	/**
@@ -77,7 +77,7 @@ public class IndexController {
 	 * @param request
 	 * @return
 	 */
-	@RequestMapping(value={"","","/search/result"})
+	@RequestMapping(value={"","","/search/process"})
 	public String result( HttpServletRequest request,Model model) {
 
 		String queryString =request.getParameter("queryString");
@@ -94,7 +94,7 @@ public class IndexController {
 			System.out.println(string);
 		}
 		 model.addAttribute("resultList",resultList);
-		
+
 		return "result";
 	}
 
@@ -102,9 +102,10 @@ public class IndexController {
 	public String getContent( HttpServletRequest request,HttpServletResponse response)
 	{
 		
-		String filePath =request.getParameter("path");
+		String filePath =request.getParameter("fileContentPath");
+		System.out.println("filePath="+filePath);
 		//FileUtil.getFiles(filePath);
-		response.setContentType("application/document");    
+		response.setContentType("application/msword");    
         response.setHeader("Content-Disposition", "attachment; filename=\"" + filePath + "\"");    
         OutputStream out;  
         try {  

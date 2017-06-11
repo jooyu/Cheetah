@@ -13,23 +13,49 @@
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <script type="text/javascript" language="javascript">  
-  
-	$(function(){ 
-	$("#myButton").bind("click",function(){ 
+
+var xmlobj; //定义XMLHttpRequest对象
+function CreateXMLHttpRequest()
+{
+if(window.ActiveXObject)
+//如果当前浏览器支持Active Xobject，则创建ActiveXObject对象
+{
+  //xmlobj = new ActiveXObject("Microsoft.XMLHTTP");
+  try {
+      xmlobj = new ActiveXObject("Msxml2.XMLHTTP");
+      } catch (e) {
+     try {
+       xmlobj = new ActiveXObject("Microsoft.XMLHTTP");
+        } catch (E) {
+          xmlobj = false;
+         }
+        }
+       }
+else if(window.XMLHttpRequest)
+//如果当前浏览器支持XMLHttp Request，则创建XMLHttpRequest对象
+{
+  xmlobj = new XMLHttpRequest();
+}
+}
+function oncli() //主程序函数
+{
+  CreateXMLHttpRequest(); //创建对象
+  var content=document.getElementById("queryString").value;  
 	
-	var content=document.getElementById("queryString").value;  
+  var parm = "queryString=" + content ;//构造URL参数
+
 
 	$.ajax({  
 	     type:'post',  
-	     url:'/search/result?queryString='+content,  
+	     url:'/search/process?queryString='+content,  
 	     data:{},  
 	     cache:false,  
 	     dataType:'json',  
 	     success:function(data){     
 	      }
 	}); 
-	}); 
-	}); 
+}
+	
     </script>  
   </head>
 
@@ -64,7 +90,7 @@
     <div class="jumbotron">
       <div class="container">
         <h1>日志查询</h1>
-        <p>这是一个简单地基于lucene的日志检索系统，为了方便对线上日志进行目标检索</p>
+        <p>这是一个基于lucene的日志检索系统，为了方便对线上日志进行目标检索</p>
       </div>
     </div>
 
@@ -72,7 +98,7 @@
 	<div class="container">
 	<div class="input-group">
 	<input id="queryString" type="text" class="form-control input-lg">
-	<a id="myButton" href="/search/result" class="input-group-addon btn btn-primary" role="button">搜索</a>
+	<a id="myButton" href="" class="input-group-addon btn btn-primary" role="button" onclick="oncli()">搜索</a>
 	</div>
 	</div>
 

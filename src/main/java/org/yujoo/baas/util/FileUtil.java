@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class FileUtil {
-	private static ArrayList<String> filelist = new ArrayList<String>();
+	public static ArrayList<String> filelist = new ArrayList<String>();
 
 	 public static void main(String[] args) throws Exception {
 	

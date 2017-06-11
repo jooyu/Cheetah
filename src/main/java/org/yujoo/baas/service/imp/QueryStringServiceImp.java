@@ -28,7 +28,7 @@ public class QueryStringServiceImp implements QueryStringService {
 	private static Logger logger = LoggerFactory
 			.getLogger(QueryStringServiceImp.class);
 	@Value("${logfiles.index.folder}")
-	private String indexPath;
+	public String indexPath;
 
 	// 基于lucene的接口查询现有内存索引的结果
 	@Override

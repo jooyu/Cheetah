@@ -26,16 +26,16 @@ import org.yujoo.baas.util.LuceneUtil;
 public class CreateIndexDocsServiceImp {
 
 	@Value("${logfiles.default.folder}")
-	private String docsPath ;
+	public String docsPath ;
 	@Value("${logfiles.index.folder}")
-	private String indexPath;
+	public String indexPath;
 	private static Logger logger = LoggerFactory
 			.getLogger(CreateIndexDocsServiceImp.class);
 
 	/**
 	 * 每隔24小时生成索引
 	 */
-	@Scheduled(fixedDelay = 3600*24)
+	@Scheduled(fixedDelay = 86400)
 	public void generatorIndexDocs() {
 		boolean create = true;
 		if (docsPath == null) {
