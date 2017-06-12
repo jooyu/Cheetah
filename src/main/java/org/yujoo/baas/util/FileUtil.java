@@ -8,8 +8,22 @@ import java.util.ArrayList;
 
 public class FileUtil {
 	public static ArrayList<String> filelist = new ArrayList<String>();
+	private static String queryString="";
+	
 
-	 public static void main(String[] args) throws Exception {
+	 public static String getQueryString() {
+		return queryString;
+	}
+
+
+
+	public static void setQueryString(String queryString) {
+		FileUtil.queryString = queryString;
+	}
+
+
+
+	public static void main(String[] args) throws Exception {
 	
 	 String filePath =
 	 "C://Users//eaves.zhu//Documents//GitHub//Cheetah//src//main//resources//log";
@@ -43,18 +57,19 @@ public class FileUtil {
 	 * @param fileName
 	 *            文件名
 	 */
-	public static void  readFileByLines(String fileName) {
+	public static String  readFileByLines(String fileName) {
+		String result = null;
 		File file = new File(fileName);
 		BufferedReader reader = null;
 		try {
-			System.out.println("以行为单位读取文件内容，一次读一整行：");
+			//System.out.println("以行为单位读取文件内容，一次读一整行：");
 			reader = new BufferedReader(new FileReader(file));
 			String tempString = null;
 			int line = 1;
 			// 一次读入一行，直到读入null为文件结束
 			while ((tempString = reader.readLine()) != null) {
-				// 显示行号
-				System.out.println("line " + line + ": " + tempString);
+				tempString=	LuceneUtil.highlight(tempString,queryString);
+				result+="line " + line+ ": "+tempString+"</br>";
 				line++;
 			}
 			reader.close();
@@ -68,5 +83,7 @@ public class FileUtil {
 				}
 			}
 		}
+		
+		return result;
 	}
 }
