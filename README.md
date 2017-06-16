@@ -1,9 +1,9 @@
 # Cheetah
 关于索引方面的研究和摸索
 
-2017.6.13 TODO 完善索引搜索优化和相关使用文档
-2017.6.15 TODO 完成项目基本说明
-2017.6.16 TODO 完善索引建立优化
+2017.6.13 TODO 完善索引搜索优化和相关使用文档<br>
+2017.6.15 TODO 完成项目基本说明<br>
+2017.6.16 TODO 完善索引建立优化<br>
 
 # Project Scene
 针对相对相对中小型的的项目，在线检索日志的一些信息分析定位问题是项目中常见的场景，该项目取自实际工程场景。
@@ -14,7 +14,7 @@
 # 搜索文件类型不局限于日志（.html/.log/.txt等）
 使用方法：
 
-1.将你要检索的文件放入文件夹log下面
-2.启动CheetSpringBoot -> run as application
-3.访问http://127.0.0.1/search/query 搜索你需要的内容
+1.将你要检索的文件放入文件夹log下面<br>
+2.启动CheetSpringBoot -> run as application<br>
+3.访问http://127.0.0.1/search/query 搜索你需要的内容<br>
 
