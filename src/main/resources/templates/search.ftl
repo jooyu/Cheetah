@@ -13,12 +13,10 @@
     <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <script type="text/javascript" language="javascript">  
 
-	function oncli() //主程序函数
+	function oncli(obj) //主程序函数
 	{
-		$("#myButton").click(function(){  
-		        $(this).attr("href","/search/process?queryString="+$("#queryString").val());
-		});
-
+		
+	$(obj).attr("href","/search/process?queryString="+$("#queryString").val());
 	}
 	
     </script>  
@@ -63,14 +61,14 @@
 	<div class="container">
 	<div class="input-group">
 	<input id="queryString" type="text" class="form-control input-lg">
-	<a id="myButton" class="input-group-addon btn btn-primary" role="button" onclick="oncli()">搜索</a>
+	<a id="myButton" class="input-group-addon btn btn-primary" role="button" onclick="oncli(this)">搜索</a>
 	</div>
 	</div>
 
     <!-- Bootstrap core JavaScript -->
 
-
-
+	
+<#include "/footer.ftl">
    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
