@@ -13,6 +13,7 @@
 
 # 搜索文件类型不局限于日志（.html/.log/.txt等）
 使用方法：
+
 1.将你要检索的文件放入文件夹log下面
 2.启动CheetSpringBoot -> run as application
 3.访问http://127.0.0.1/search/query 搜索你需要的内容
