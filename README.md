@@ -17,3 +17,6 @@
 2.启动CheetSpringBoot -> run as application
 3.访问http://127.0.0.1/search/query 搜索你需要的内容
 
+
+# 20170620 新增需求 在couchbase中搜索数据
+数据格式转换
