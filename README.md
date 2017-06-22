@@ -5,7 +5,7 @@
 2017.6.15 TODO 完成项目基本说明<br>
 2017.6.16 TODO 完善索引建立优化<br>
 
-# Project Scene
+# 项目背景
 针对相对相对中小型的的项目，在线检索日志的一些信息分析定位问题是项目中常见的场景，该项目取自实际工程场景。
 之前考察过flume+kafka+storm+elasticsearch,针对非大数据量场景显得有些笨重
 该项目基于lucene实现日志搜索，利用lucene的倒排索引机制定时按每日生成的log文件构建查询索引，结合springboot+freeMarker+bootstrap构建
@@ -29,7 +29,7 @@ logfiles.index.folder=src/main/resources/index<br>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-# 20170620 新增elasticsearch查询couchbase接口Demo
+# 新增elasticsearch查询couchbase接口Demo
 elasticsearch是基于apache lucene的分布式全文搜索引擎，elk（elasticsearch+Logstash+Kinaba）是常用日志数据搜集，搜索，展示的架构<br>
 这里使用的数据源是couchbase，couchbase提供了传输给elasticsearch的connector：elasticsearch-transport-couchbase<br>
 展示部分这里我们做的定制化需求，使用springboot+freemaker自己开发<br>
