@@ -49,7 +49,7 @@ bin/plugin install file:///xxx/xxx/elasticsearch-transport-couchbase-2.2.4.0.zip
 安装完成就可以了，若要看详细文档请移步https://developer.couchbase.com/documentation/server/4.6/connectors/elasticsearch-2.2/install-and-config.html<br>
 其他插件也一样安装<br>
 
-3.启动bin/elasticsearch -Des.insecure.allow.root=true<br>
+# 3.启动bin/elasticsearch -Des.insecure.allow.root=true<br>
 curl -XPUT http://localhost:9200/beer-sample  <br>
 返回{"acknowledged":true}<br>
 连接coucubase需要配置elasticsearch.yml <br>
@@ -61,7 +61,7 @@ couchbase.username: [username]<br>
 couchbase.maxConcurrentRequests: 1024<br>
 重新启动<br>
 
-4.couchbase数据复制到elasticsearch做实时搜索<br>
+# 4.couchbase数据复制到elasticsearch做实时搜索<br>
 详细步骤https://developer.couchbase.com/documentation/server/4.6/connectors/elasticsearch-2.2/getting-started.html<br>
 
 5.构建完成以后可以使用elasticsearch的api实现全文查询<br>
