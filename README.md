@@ -19,5 +19,52 @@
 3.访问http://127.0.0.1/search/query 搜索你需要的内容<br>
 
 
-# 20170620 新增需求 在couchbase中搜索数据
-数据格式转换
+使用方法:<br>
+修改config文件夹下application-dev.properties<br>
+logfiles.default.folder=src/main/resources/log<br>
+logfiles.index.folder=src/main/resources/index<br>
+改为指定目录<br>
+运行项目mvn spring-boot:run<br>
+浏览器查询：http://127.0.0.1:8080/search/query
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+# 20170620 新增elasticsearch查询couchbase接口Demo
+elasticsearch是基于apache lucene的分布式全文搜索引擎，elk（elasticsearch+Logstash+Kinaba）是常用日志数据搜集，搜索，展示的架构<br>
+这里使用的数据源是couchbase，couchbase提供了传输给elasticsearch的connector：elasticsearch-transport-couchbase<br>
+展示部分这里我们做的定制化需求，使用springboot+freemaker自己开发<br>
+# 1.这里我推荐使用couchbase4.5+elasticsearch2.4.0+elasticsearch-transport-couchbase-2.2.4.0-update1.zip<br>
+couchbase：<br>
+elasticsearch2.4.0：https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-2.4.0.deb<br>
+elasticsearch-transport-couchbase-2.2.4.0-update1.zip： <br>
+https://github.com/couchbaselabs/elasticsearch-transport-couchbase/releases/download/2.2.4.0-update1/elasticsearch-transport-couchbase-2.2.4.0-update1.zip<br>
+
+当然你可以尝试其他版本<br>
+https://github.com/couchbaselabs/elasticsearch-transport-couchbase<br>
+
+# 2.elasticsearch建议离线安装插件，<br>
+例子命令：<br>
+cd /elasticsearch<br>
+bin/plugin install file:///xxx/xxx/elasticsearch-transport-couchbase-2.2.4.0.zip<br>
+安装完成就可以了，若要看详细文档请移步https://developer.couchbase.com/documentation/server/4.6/connectors/elasticsearch-2.2/install-and-config.html<br>
+其他插件也一样安装<br>
+
+3.启动bin/elasticsearch -Des.insecure.allow.root=true<br>
+curl -XPUT http://localhost:9200/beer-sample  <br>
+返回{"acknowledged":true}<br>
+连接coucubase需要配置elasticsearch.yml <br>
+apt-get install emacs<br>
+emacs /etc/elasticsearch/elasticsearch.yml<br>
+最后一行添加<br>
+couchbase.password: [password]<br>
+couchbase.username: [username]<br>
+couchbase.maxConcurrentRequests: 1024<br>
+重新启动<br>
+
+4.couchbase数据复制到elasticsearch做实时搜索<br>
+详细步骤https://developer.couchbase.com/documentation/server/4.6/connectors/elasticsearch-2.2/getting-started.html<br>
+
+5.构建完成以后可以使用elasticsearch的api实现全文查询<br>
+例子：http://127.0.0.1:9200/beer-sample/_search?q=2684142<br>
+运行项目：http://127.0.0.1:8080esearch/query可实现可视化查询界面和结果展示<br>
+
