@@ -1,44 +1,34 @@
 package org.yujoo.baas.controller;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.yujoo.baas.service.ElasticsearchService;
 import org.yujoo.baas.service.QueryStringService;
 import org.yujoo.baas.util.FileUtil;
-import org.yujoo.baas.util.LuceneUtil;
 
 @Controller
 
-public class IndexController {
+public class ElasticsearchController {
 	@Autowired
-	public QueryStringService queryStringService;
-
-	
-
+	public ElasticsearchService elasticsearchService;
 	
 	/**
 	 * 搜索界面
 	 * @param request
 	 * @return
 	 */
-	@RequestMapping(value={"","/","search/query"})
+	@RequestMapping(value={"","/","esearch/query"})
 	
 	public String queryString( HttpServletRequest request) {
 
-		return "search";
+		return "esearch";
 	}
 
 	
@@ -48,13 +38,13 @@ public class IndexController {
 	 * @param request
 	 * @return
 	 */
-	@RequestMapping(value={"","/","search/process"})
+	@RequestMapping(value={"","/","esearch/process"})
 	
 	public String result( HttpServletRequest request,Model model) {
 
 		String queryString =request.getParameter("queryString");
 		//设置全局唯一变量queryString
-		FileUtil.setQueryString(queryString);
+//		FileUtil.setQueryString(queryString);
 		List<String> resultList =new ArrayList<String>();
 		if(queryString==null)
 		{
@@ -62,13 +52,13 @@ public class IndexController {
 		}
 		System.out.println("queryString"+queryString);
 		
-		 resultList=queryStringService.getSearchResult(queryString);
+		 resultList=elasticsearchService.getMemberSeq(queryString);
 
 		for (String string : resultList) {
 			System.out.println(string);
 		}
 		 model.addAttribute("resultList",resultList);
-		  return "result"; 
+		  return "eresult"; 
 	}
 	
 	
@@ -101,7 +91,7 @@ public class IndexController {
 //
 //	}
 //
-	@RequestMapping(value={"","/","search/getContent"})
+	@RequestMapping(value={"","/","esearch/getContent"})
 
 	public String getContent( HttpServletRequest request,Model model)
 	{

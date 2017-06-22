@@ -13,7 +13,7 @@
     <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
         <script type="text/javascript" language="javascript">  
 
-	function getContent(obj) //主程序函数
+	 function getContent(obj) //主程序函数
 	{
 	var fileContentPath=$(obj).attr("value"); 
   	var parm = "fileContentPath=" + encodeURI(fileContentPath) ;//构造URL参数
